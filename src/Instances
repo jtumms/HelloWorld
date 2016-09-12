@@ -1,0 +1,44 @@
+
+//Instantiations for Backend Assignment 1 follow here:
+
+Addresses restAddress = new Addresses();
+restAddress.street = "123 Coleman Blvd";
+restAddress.city = "Mount Pleasant";
+restAddress.state = "SC";
+restAddress.country = "USA";
+restAddress.zipCode = 29466;
+
+Restaurant restaurant1 = new Restaurant();
+restaurant1.restName = "Luigi\'s";
+restaurant1.address = restAddress
+restaurant1.openTime = 1100;
+restaurant1.closeTime = 2200;
+restaurant1.styles[0] = "Italian";
+restaurant1.styles[1] = "Northern Italian";
+restaurant1.styles[2] = "Seafood";
+
+Entree entree1 = new Entree();
+entree1.name = "Linguine Bolognese";
+entree1.calories = 1600;
+entree1.description = "linguine pasta with a pork, beef, and veal ragu with cream";
+entree1.ingredients[0] = "linguine";
+entree1.ingredients[1] = "ground pork";
+entree1.ingredients[2] = "ground veal";
+entree1.ingredients[3] = "crushed tomatoes";
+entree1.ingredients[4] = "heavy cream";
+
+Beer beer1 = new Beer();
+beer1.beerName = "Amstel Light";
+beer1.company = "Amstel Importers";
+beer1.isImported = true;
+beer1.price = 9.00;
+
+Dessert dessert1 = new Dessert();
+dessert1.dessertName = "Gelato";
+dessert1.dessertPrice = 8.99;
+dessert1.isDiet = false;
+
+Restaurant[]  restaurantList = new Restaurant[5];
+restaurantList[0] = restaurant1;
+restaurantList[0].restName;
+restaurantList[0].styles;
