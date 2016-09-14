@@ -38,10 +38,10 @@ public class Person {
     }
 
     void setIsAlive(boolean newIsAlive) {
-        if(age > 100) {
+        if (age > 100) {
             isAlive = false;
         }
-        else{
+        else {
             isAlive = newIsAlive;
         }
     }
