@@ -29,7 +29,7 @@ public class Dessert {
     }
 
     void setDessertPrice(double newPrice) {
-        if (isDiet=true){
+        if (isDiet==true){
             dessertPrice = newPrice;
             System.out.println("Price changed");
         }

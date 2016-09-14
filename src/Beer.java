@@ -32,7 +32,7 @@ void setName(String newName) {
     name = newName;
 }
 void setPrice(float newPrice) {
-    if (isImported = true) {
+    if (isImported == true) {
 
         price = newPrice;
     }
