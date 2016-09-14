@@ -43,6 +43,7 @@ public class Addresses {
     void setState(String newState) {
         state = newState;
     }
+//    check to see if country contains USA
     void setCountry(String newCountry) {
         if (country.contains("USA")) {
             System.out.println("domestic mail only");

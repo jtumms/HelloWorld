@@ -1,5 +1,7 @@
 /**
  * Created by john.tumminelli on 9/12/16.
+ *
+ * Ask about building constructors with nested arrays..
  */
 public class Restaurant {
     String name;

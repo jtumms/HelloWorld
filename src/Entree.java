@@ -40,7 +40,7 @@ public class Entree {
     String getDescription(){
         return description;
     }
-    float getPrice(){
+    float getPrice() {
         return price;
     }
 

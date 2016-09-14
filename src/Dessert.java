@@ -27,7 +27,7 @@ public class Dessert {
     void setName(String newName) {
         dessertName = newName;
     }
-
+//check if dessert is diet
     void setDessertPrice(double newPrice) {
         if (isDiet==true){
             dessertPrice = newPrice;

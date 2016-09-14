@@ -31,6 +31,7 @@ String getCompany() {
 void setName(String newName) {
     name = newName;
 }
+//Check to see if imported is true
 void setPrice(float newPrice) {
     if (isImported == true) {
 
