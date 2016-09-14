@@ -11,6 +11,7 @@ public class Addresses {
     String country;
     int zipCode;
 
+    /*Constructor added here for Addresses class */
     Addresses(String newStreet, String newCity, String newState, String newCountry, int newZip) {
         setStreet(newStreet);
         setCity(newCity);
@@ -43,6 +44,9 @@ public class Addresses {
         state = newState;
     }
     void setCountry(String newCountry) {
+        if (country.contains("USA")) {
+            System.out.println("domestic mail only");
+        }
         country = newCountry;
     }
     void setZipCode(int newZip) {

@@ -32,7 +32,13 @@ void setName(String newName) {
     name = newName;
 }
 void setPrice(float newPrice) {
-    price = newPrice;
+    if (isImported = true) {
+
+        price = newPrice;
+    }
+    else {
+        System.out.println("Sorry. You cannot change the price on imported beers.");
+    }
 }
 void setIsImported(boolean newIsImported) {
     isImported = newIsImported;
