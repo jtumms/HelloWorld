@@ -4,6 +4,7 @@
 public class Puppy {
     int puppyAge;
     int puppyWeight;
+    boolean isMale;
 
     public Puppy(String name, String breed) {
         // This constructor has two parameters, name and breed.
@@ -14,12 +15,19 @@ public class Puppy {
         else {
             System.out.println("I am not a fan of the " + breed + " breed");
         }
+        if (name == "Tyson") {
+            isMale = true;
+        }
+        else {
+            isMale = false;
+        }
     }
 
     public void setAgeWeight(int age, int weight) {
         puppyAge = age;
         puppyWeight = weight;
     }
+
 
     public int getAgeWeight() {
         System.out.println("Puppy's age is: " + puppyAge);
@@ -29,7 +37,7 @@ public class Puppy {
 
     public static void main(String[] args) {
       /* Object creation */
-        Puppy myPuppy = new Puppy("Tyson","Bulldog");
+        Puppy myPuppy = new Puppy("Zoey","Terrier");
 
       /* Call class method to set puppy's age */
         myPuppy.setAgeWeight(2,65);
@@ -39,6 +47,13 @@ public class Puppy {
 
       /* You can access instance variable as follows as well */
         System.out.println("Variable Value :" + myPuppy.puppyAge);
+
+        if (myPuppy.isMale == true) {
+            System.out.println("This puppy is a male");
+        }
+        else {
+            System.out.println("This puppy is a female");
+        }
     }
 }
 
