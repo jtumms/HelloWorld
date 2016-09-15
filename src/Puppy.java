@@ -37,7 +37,7 @@ public class Puppy {
 
     public static void main(String[] args) {
       /* Object creation */
-        Puppy myPuppy = new Puppy("Zoey","Terrier");
+        Puppy myPuppy = new Puppy("Tyson","Terrier");
 
       /* Call class method to set puppy's age */
         myPuppy.setAgeWeight(2,65);

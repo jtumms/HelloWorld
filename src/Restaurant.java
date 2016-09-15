@@ -8,16 +8,16 @@ public class Restaurant {
     Addresses address;
     int openTime;
     int closeTime;
-    String[] styles = new String[5];
+    String[] styles = new String[3];
 
 
     // Constructor added for Restaurant class
-    Restaurant(String newName, Addresses newAddress, int newOpenTime, int newCloseTime, String newStyles) {
+    Restaurant(String newName, Addresses newAddress, int newOpenTime, int newCloseTime, String[] newStyles) {
         setName(newName);
         setAddress(newAddress);
         setOpenTime(newOpenTime);
         setCloseTime(newCloseTime);
-        /* setStyle(newStyles); */
+        setStyle(newStyles);
     }
 
     String getName() {
@@ -35,6 +35,7 @@ public class Restaurant {
     int getCloseTime() {
         return closeTime;
     }
+    String getStyles;
 
     void setName(String newName) {
         name = newName;
@@ -50,6 +51,9 @@ public class Restaurant {
 
     void setCloseTime(int newCloseTime) {
         closeTime = newCloseTime;
+    }
+    void setStyle(String[] newStyles) {
+        styles = newStyles;
     }
 }
 
