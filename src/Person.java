@@ -5,6 +5,7 @@ public class Person {
     String name;
     int age;
     boolean isAlive;
+    double balance;
     static int minimumAge = 18;
 
     Person(String newName, int newAge, boolean newIsAlive) {
