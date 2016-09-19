@@ -55,8 +55,9 @@ public class Excercise01 {
             arr.add(name);
             nameMap.put(firstLetter, arr);
 
-            System.out.println(nameMap);
+
         }
+        System.out.println(nameMap);
 
     }
 }
