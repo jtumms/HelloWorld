@@ -20,7 +20,7 @@ public class Excercise03 {
         System.out.println(namesArr);
 
         //iterator
-        ArrayList<String> namesArr = new ArrayList<>(Arrays.asList(names));
+
         Iterator<String> iter = namesArr.iterator();
         while (iter.hasNext()) {
             String name = iter.next();
