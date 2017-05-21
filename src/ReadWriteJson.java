@@ -35,5 +35,6 @@ public class ReadWriteJson {
         JsonParser parser = new JsonParser();
         PeopleWrapper pw2 = parser.parse(contents, PeopleWrapper.class);
         System.out.println(pw2);
+
     }
 }
